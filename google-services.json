@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "184506744768",
+    "firebase_url": "https://hungrymood-c9fb5.firebaseio.com",
+    "project_id": "hungrymood-c9fb5",
+    "storage_bucket": "hungrymood-c9fb5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184506744768:android:23b74dafb0b3dbcf5e1225",
+        "android_client_info": {
+          "package_name": "com.example.hungrymood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184506744768-83ei5ctkfcsbi8sndpn53dh4hq3tnoql.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hungrymood",
+            "certificate_hash": "ffe1d44766a13a8c13bfde0e96538494f84dc660"
+          }
+        },
+        {
+          "client_id": "184506744768-9du5p0v13febcnu59csoigtujvot4j05.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA12zFzMkLONhN2CRdT8pb50X1K573v3Fo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "184506744768-9du5p0v13febcnu59csoigtujvot4j05.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

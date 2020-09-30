@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">HungryMood</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string-array name="State">
+        <item>Dhaka</item>
+        <item>Chittagong</item>
+    </string-array>
+
+    <string-array name="shipper">
+        <item>Shipper 1</item>
+        <item>Shipper 2</item>
+    </string-array>
+
+    <string-array name="DishName">
+        <item>Paratha</item>
+        <item>Plain Naan</item>
+        <item>Garlic Naan</item>
+        <item>Aloo Paratha</item>
+        <item>Rumali roti</item>
+        <item>Tandoori Chicken</item>
+        <item>Grilled Chicken</item>
+        <item>BBQ Chicken</item>
+        <item>Beef Rezala</item>
+        <item>Hydrabadi Chicken Biriyani</item>
+        <item>Hydrabadi Mutton Biriyani</item>
+        <item>Kacchi Biriyani</item>
+        <item>Chicken Polao</item>
+        <item>Tomato Salsa</item>
+        <item>Cashew nut Salad</item>
+        <item>Cheese pizza</item>
+        <item>Pepperoni Pizza</item>
+        <item>Cheesy Chicken Burger</item>
+        <item>Cheesy Beef Burger</item>
+        <item>BBQ Chicken Burger</item>
+        <item>French Fries</item>
+        <item>Spicy French Fries</item>
+        <item>Cheese cake</item>
+        <item>Chocolate muffins</item>
+
+    </string-array>
+</resources>
