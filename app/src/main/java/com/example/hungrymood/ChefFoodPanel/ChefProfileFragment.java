@@ -27,8 +27,10 @@ public class ChefProfileFragment extends Fragment {
         getActivity().setTitle("Post Dish");
 
         AnimationDrawable animationDrawable = new AnimationDrawable();
-        animationDrawable.addFrame(getResources().getDrawable(R.drawable.bg1),3000);
-        animationDrawable.addFrame(getResources().getDrawable(R.drawable.bg5),3000);
+        animationDrawable.addFrame(getResources().getDrawable(R.drawable.food2),3000);
+        animationDrawable.addFrame(getResources().getDrawable(R.drawable.food6),3000);
+        animationDrawable.addFrame(getResources().getDrawable(R.drawable.food7),3000);
+        animationDrawable.addFrame(getResources().getDrawable(R.drawable.food1),3000);
 
         animationDrawable.setOneShot(false);
         animationDrawable.setEnterFadeDuration(850);
@@ -47,5 +49,6 @@ public class ChefProfileFragment extends Fragment {
             }
         });
         return v;
+
     }
 }

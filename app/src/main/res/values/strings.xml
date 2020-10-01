@@ -15,9 +15,9 @@
     </string-array>
 
     <string-array name="DishName">
-        <item>Paratha</item>
-        <item>Plain Naan</item>
         <item>Garlic Naan</item>
+        <item>Plain Naan</item>
+        <item>Paratha</item>
         <item>Aloo Paratha</item>
         <item>Rumali roti</item>
         <item>Tandoori Chicken</item>

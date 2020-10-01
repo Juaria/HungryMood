@@ -28,7 +28,6 @@
             android:layout_height="wrap_content"
             android:id="@+id/Lemail"
             android:layout_marginTop="15dp"
-            android:hint="Enter Email id"
             android:paddingBottom="10dp">
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"

@@ -5,17 +5,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/back1">
+
     <Button
+        android:id="@+id/post_dish"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/post_dish"
+        android:layout_marginBottom="16dp"
         android:background="@drawable/btnred"
-        android:text="Post Dish"
-        android:textSize="24sp"
-        android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="20dp"
+        android:drawableLeft="@drawable/icon_add"
         android:shadowColor="@color/Black"
-        android:shadowRadius="10"/>
+        android:shadowRadius="10"
+        android:outlineAmbientShadowColor="@color/Yellow"
+        android:text="Post Dish"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="-83dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
