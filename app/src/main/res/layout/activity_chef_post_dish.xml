@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/wwhite"
     tools:context=".ChefFoodPanel.chef_postDish">
 
     <ImageButton
@@ -45,7 +46,7 @@
             android:layout_width="162dp"
             android:layout_height="30dp"
             android:layout_marginLeft="12dp"
-            android:background="#D0FFFFFF"
+            android:background="@color/wwhite"
             android:entries="@array/DishName" />
 
     </LinearLayout>
@@ -130,8 +131,6 @@
         app:layout_constraintVertical_bias="0.30"
         app:layout_constraintHorizontal_bias="0.498"
         android:textSize="20sp"/>
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

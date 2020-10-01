@@ -140,7 +140,7 @@ public class ChefRegistration extends AppCompatActivity {
        });
     }
 
-    String emailpattern = "[a-zA-Z0.9._-]+@[a-z]\\.+[a-z]+";
+    String emailpattern = "[a-zA-Z0-9._-]+@[a-z]\\.+[a-z]+";
     public boolean isValid(){
         Email.setErrorEnabled(false);
         Email.setError("");
