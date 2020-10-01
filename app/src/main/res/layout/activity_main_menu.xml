@@ -3,10 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/bg"
-    android:layout_width="wrap_content"
+    android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
-    android:layout_marginBottom="20dp"
     android:background="@color/red"
     app:layout_constraintTop_toTopOf="parent"
     tools:context=".MainMenu">
@@ -112,8 +111,8 @@
             android:layout_marginTop="38dp"
             android:background="@drawable/btngrn"
             android:text="Signup"
-            android:textSize="18dp"
-            android:textColor="#FFFFFF" />
+            android:textColor="#FFFFFF"
+            android:textSize="18dp" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

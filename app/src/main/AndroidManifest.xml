@@ -9,7 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainMenu"></activity>
+        <activity android:name=".ChefForgotPassword"></activity>
+        <activity android:name=".ChefFoodPanel_BottomNavigation" />
+        <activity android:name=".DelLogin" />
+        <activity android:name=".DelRegistration" />
+        <activity android:name=".DelLoginPhone" />
+        <activity android:name=".CustomerRegistration" />
+        <activity android:name=".CustomerLoginphone" />
+        <activity android:name=".CustomerLogin" />
+        <activity android:name=".ChefRegistration" />
+        <activity android:name=".ChefLoginPhone" />
+        <activity android:name=".ChefLogin" />
+        <activity android:name=".ChooseOne" />
+        <activity android:name=".MainMenu" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,6 +29,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
