@@ -22,13 +22,13 @@ public class ChooseOne extends AppCompatActivity {
         setContentView(R.layout.activity_choose_one);
 
         AnimationDrawable animationDrawable = new AnimationDrawable();
-        animationDrawable.addFrame(getResources().getDrawable(R.drawable.bg2), 3000);
+        animationDrawable.addFrame(getResources().getDrawable(R.drawable.bg11), 3000);
 
         animationDrawable.setOneShot(false);
         animationDrawable.setEnterFadeDuration(850);
         animationDrawable.setExitFadeDuration(1600);
 
-        bgimage = findViewById(R.id.bg2);
+        bgimage = findViewById(R.id.bg11);
         bgimage.setBackgroundDrawable(animationDrawable);
         animationDrawable.start();
 

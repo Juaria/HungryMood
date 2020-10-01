@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/bg2"
+    android:id="@+id/bg11"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     tools:context=".ChooseOne">
