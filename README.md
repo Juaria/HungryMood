@@ -12,9 +12,9 @@ An Overall diagram of the system is described in the flow diagram below:
 ![](Screenshots/systemidea.PNG)
 
 This app offers three variations of registration to form the connections in the app, they are:
-•	Connect as chef
-•	Connect as Customer
-•	Connect as Delivery Person.
+- Connect as Chef
+- Connect as Customer
+- Connect as Delivery Person.
 ![](Screenshots/ss1.PNG)
 ![](Screenshots/ss2.PNG)
 These three users are identified as three different roles in the firebase database. Refer to the systematic diagram below to get the gist of the "role" type works in firebase.
@@ -25,6 +25,7 @@ After the registration is done, the user will be notified with verification link
 
 This project currently uses Firebase database to store all the information. To prevent a sign-in link from being used to sign in as an unintended user or on an unintended device, Firebase Auth requires the user's email address to be provided when completing the sign-in flow. For sign-in to succeed, this email address must match the address to which the sign-in link was originally sent.
 The database of the users are stored in firebase database like so:
+
 ![](Screenshots/ss5.PNG)
 
 Now, the main role of chef is to upload images and decription of their food item so that the users can view and select them. Firwebase storage and camera authentication have been implemented to do this part shown below.
@@ -35,6 +36,7 @@ While uploading an image, the user has the flexibity to crop and rotate the imag
 ![](Screenshots/SS10.PNG)
 
 After the chef successfully uploads the image and descriptions of the dish, it will be stored in the firebase database under the registered chef or restaurant ID and their descriptions like the image given below.
+
 ![](Screenshots/SS11.PNG)
 
 Future works:
