@@ -17,8 +17,10 @@ This app offers three variations of registration to form the connections in the 
 - Connect as Delivery Person.
 ![](Screenshots/ss1.PNG)
 ![](Screenshots/ss2.PNG)
+
 These three users are identified as three different roles in the firebase database. Refer to the systematic diagram below to get the gist of the "role" type works in firebase.
 ![](Screenshots/SS7.PNG)
+
 After the registration is done, the user will be notified with verification link in their registered email id to proceed with the login and using the app successfully as a chef,customer or delivery person.
 ![](Screenshots/ss3.PNG)
 ![](Screenshots/ss6.PNG)
